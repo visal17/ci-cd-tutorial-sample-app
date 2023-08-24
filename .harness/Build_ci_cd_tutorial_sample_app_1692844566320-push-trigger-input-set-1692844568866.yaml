@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ci_cd_tutorial_sample_app_1692844566320-push-trigger-input-set
+  identifier: Build_ci_cd_tutorial_sample_app_1692844566320pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ci_cd_tutorial_sample_app_1692844566320
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
