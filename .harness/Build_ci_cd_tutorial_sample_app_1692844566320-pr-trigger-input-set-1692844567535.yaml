@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ci_cd_tutorial_sample_app_1692844566320-pr-trigger-input-set
+  identifier: Build_ci_cd_tutorial_sample_app_1692844566320prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ci_cd_tutorial_sample_app_1692844566320
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
